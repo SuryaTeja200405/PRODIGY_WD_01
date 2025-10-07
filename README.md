@@ -95,7 +95,8 @@ The UI focuses on simplicity and purpose:
 *(Add your screenshots here for a visual overview)*  
 
 Example:  
-![Responsive Landing Page Preview](./assets/preview.png)
+![Responsive Landing Page Preview](<img width="1897" height="865" alt="image" src="https://github.com/user-attachments/assets/d8d83ce9-a52d-4fb1-bec8-9ac4cc4fc51c" />
+)
 
 Live Demo (if hosted):  
 👉 [**View on GitHub Pages**](https://suryateja200405.github.io/PRODIGY_WD_01/)
