@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Prodigy Infotech - Responsive Landing Page</title>
+    <meta name="description" content="Responsive Landing Page task for Prodigy Infotech with sticky navbar, smooth scrolling, and modern minimal design.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header" id="header" role="banner">
+        <nav class="nav container" role="navigation" aria-label="Primary navigation">
+            <a href="#home" class="logo" aria-label="Prodigy Infotech - Go to home">
+                Prodigy<span>Infotech</span>
+            </a>
+            
+            <button class="nav-toggle" 
+                    type="button"
+                    aria-label="Toggle navigation menu" 
+                    aria-expanded="false" 
+                    aria-controls="nav-menu"
+                    aria-haspopup="true">
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+                <span class="sr-only">Menu</span>
+            </button>
+            
+            <ul class="nav-menu" id="nav-menu" role="menubar" aria-hidden="false">
+                <li role="none">
+                    <a href="#home" class="nav-link" role="menuitem" tabindex="0">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li role="none">
+                    <a href="#about" class="nav-link" role="menuitem" tabindex="0">
+                        <span>About</span>
+                    </a>
+                </li>
+                <li role="none">
+                    <a href="#services" class="nav-link" role="menuitem" tabindex="0">
+                        <span>Services</span>
+                    </a>
+                </li>
+                <li role="none">
+                    <a href="#contact" class="nav-link" role="menuitem" tabindex="0">
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+            
+            <div class="nav-overlay" aria-hidden="true"></div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section hero reveal" id="home" aria-labelledby="hero-heading">
+            <div class="container grid hero-grid">
+                <div class="hero-content">
+                    <h1 id="hero-heading">Build Modern, Responsive Experiences</h1>
+                    <p class="subtitle">Clean, minimal, and fast — crafted with pure HTML, CSS, and JavaScript. Smooth interactions and adaptive layouts for every device.</p>
+                    <div class="hero-actions">
+                        <a href="#services" class="btn primary">Explore Services</a>
+                        <a href="#about" class="btn ghost">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="blob"></div>
+                    <div class="rings"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section about reveal" id="about" aria-labelledby="about-heading">
+            <div class="container grid about-grid">
+                <div class="about-media" aria-hidden="true">
+                    <svg viewBox="0 0 600 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract illustration">
+                        <defs>
+                            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                                <stop offset="0%" stop-color="#7c5cff"/>
+                                <stop offset="100%" stop-color="#26d4d4"/>
+                            </linearGradient>
+                            <radialGradient id="g2" cx="80%" cy="20%" r="60%">
+                                <stop offset="0%" stop-color="#26d4d4" stop-opacity="0.9"/>
+                                <stop offset="100%" stop-color="#26d4d4" stop-opacity="0"/>
+                            </radialGradient>
+                        </defs>
+                        <rect x="0" y="0" width="600" height="420" rx="24" fill="#0e1520"/>
+                        <circle cx="480" cy="60" r="180" fill="url(#g2)"/>
+                        <g opacity="0.9">
+                            <path d="M40,300 C140,260 200,340 300,300 C380,270 460,320 560,300" stroke="url(#g1)" stroke-width="10" fill="none" stroke-linecap="round"/>
+                            <path d="M60,200 C160,160 220,240 320,200 C400,170 480,220 580,200" stroke="url(#g1)" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6"/>
+                        </g>
+                        <rect x="60" y="70" width="240" height="28" rx="8" fill="#1a2332"/>
+                        <rect x="60" y="112" width="320" height="18" rx="6" fill="#1a2332"/>
+                        <rect x="60" y="138" width="280" height="18" rx="6" fill="#1a2332"/>
+                        <rect x="60" y="164" width="300" height="18" rx="6" fill="#1a2332"/>
+                    </svg>
+                </div>
+                <div class="about-content">
+                    <h2 id="about-heading">About This Project</h2>
+                    <p>This landing page is part of the Prodigy Infotech task on creating a fully responsive, interactive, and elegant interface without using any frameworks. It features a fixed navigation bar, smooth scrolling, hover transitions, and subtle scroll-based effects.</p>
+                    <ul class="about-list">
+                        <li>Minimal, accessible, and performant</li>
+                        <li>Adaptive layouts for desktop, tablet, and mobile</li>
+                        <li>Vanilla JavaScript for interactivity</li>
+                    </ul>
+                    <a href="#contact" class="btn secondary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section services reveal" id="services" aria-labelledby="services-heading">
+            <div class="container">
+                <h2 class="section-title" id="services-heading">Services</h2>
+                <p class="section-subtitle">What this landing page demonstrates</p>
+                <div class="cards">
+                    <article class="card reveal">
+                        <div class="card-icon">✨</div>
+                        <h3>Responsive Design</h3>
+                        <p>Layouts reflow smoothly across breakpoints with fluid grids, clamps, and CSS variables.</p>
+                    </article>
+                    <article class="card reveal">
+                        <div class="card-icon">🧭</div>
+                        <h3>Interactive Navbar</h3>
+                        <p>Sticky top navigation that changes color on scroll and highlights hover states.</p>
+                    </article>
+                    <article class="card reveal">
+                        <div class="card-icon">🪄</div>
+                        <h3>Smooth Interactions</h3>
+                        <p>Subtle transitions, smooth scrolling, and scroll-triggered reveals for a polished feel.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact reveal" id="contact" aria-labelledby="contact-heading">
+            <div class="container">
+                <h2 class="section-title" id="contact-heading">Contact</h2>
+                <p class="section-subtitle">Have feedback or want to collaborate? Say hello.</p>
+                <form class="contact-form" action="#" method="post" onsubmit="return false;">
+                    <div class="form-grid">
+                        <label>
+                            <span>Name</span>
+                            <input type="text" name="name" placeholder="Your name" required>
+                        </label>
+                        <label>
+                            <span>Email</span>
+                            <input type="email" name="email" placeholder="you@example.com" required>
+                        </label>
+                    </div>
+                    <label class="full">
+                        <span>Message</span>
+                        <textarea name="message" rows="4" placeholder="Tell us a bit about your needs..." required></textarea>
+                    </label>
+                    <button class="btn primary" type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer reveal" role="contentinfo">
+        <div class="container footer-inner">
+            <a href="#home" class="logo small">Prodigy<span>Infotech</span></a>
+            <p>© <span id="year"></span> Prodigy Infotech — Responsive Landing Page Task.</p>
+            <ul class="socials" aria-label="Social links">
+                <li><a href="#" aria-label="Twitter">Twitter</a></li>
+                <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+                <li><a href="#" aria-label="GitHub">GitHub</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <button class="scroll-top" aria-label="Scroll to top">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>
+
