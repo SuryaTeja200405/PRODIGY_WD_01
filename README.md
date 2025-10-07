@@ -100,10 +100,3 @@ Example:
 Live Demo (if hosted):  
 👉 [**View on GitHub Pages**](https://surjateja200405.github.io/PRODIGY_WD_01/)
 
----
-
-## 🧭 How to Run Locally  
-
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/SuryaTeja200405/PRODIGY_WD_01.git
