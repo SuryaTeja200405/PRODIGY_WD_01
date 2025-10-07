@@ -98,5 +98,5 @@ Example:
 ![Responsive Landing Page Preview](./assets/preview.png)
 
 Live Demo (if hosted):  
-👉 [**View on GitHub Pages**](https://surjateja200405.github.io/PRODIGY_WD_01/)
+👉 [**View on GitHub Pages**](https://suryateja200405.github.io/PRODIGY_WD_01/)
 
